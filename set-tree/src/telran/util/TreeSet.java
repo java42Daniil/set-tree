@@ -52,6 +52,7 @@ Node<T> current = root == null ? root : getMostLeftFrom(root);
 	@Override 
 	public void remove() {
 		//TODO
+		// V.R. Where is your implementation?
 	}
 	 
  }
@@ -111,6 +112,7 @@ Node<T> current = root == null ? root : getMostLeftFrom(root);
 
 	private void removeNode(Node<T> removedNode) {
 		//TODO update the method by applying another algorithm
+		// V.R. It is code written by Yuri during CW. Where is your implementation? 
 		if (removedNode == root) {
 			removeRoot();
 		} else {
